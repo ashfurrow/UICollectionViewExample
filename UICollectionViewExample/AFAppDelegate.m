@@ -19,6 +19,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackTranslucent];
+    
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
     AFMasterViewController *controller = (AFMasterViewController *)navigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;

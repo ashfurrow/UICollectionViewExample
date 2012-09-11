@@ -15,4 +15,8 @@
 #import <CoreData/CoreData.h>
 #import <PXAPI/PXAPI.h>
 
+#import "AFAppDelegate.h"
+
+#define AppDelegate ((AFAppDelegate *)[[UIApplication sharedApplication] delegate])
+
 #endif

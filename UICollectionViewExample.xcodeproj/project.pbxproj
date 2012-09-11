@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E2E334515FF7A7A00C731E5 /* AFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2E334415FF7A7A00C731E5 /* AFCollectionViewCell.m */; };
 		5ECF305215FF6BDB00E41BB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECF305115FF6BDB00E41BB4 /* UIKit.framework */; };
 		5ECF305415FF6BDB00E41BB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECF305315FF6BDB00E41BB4 /* Foundation.framework */; };
 		5ECF305615FF6BDB00E41BB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECF305515FF6BDB00E41BB4 /* CoreGraphics.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E2E334315FF7A7A00C731E5 /* AFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCollectionViewCell.h; sourceTree = "<group>"; };
+		5E2E334415FF7A7A00C731E5 /* AFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCollectionViewCell.m; sourceTree = "<group>"; };
 		5ECF304D15FF6BDB00E41BB4 /* UICollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECF305115FF6BDB00E41BB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5ECF305315FF6BDB00E41BB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -115,6 +118,8 @@
 				5ECF306E15FF6BDB00E41BB4 /* AFDetailViewController.h */,
 				5ECF306F15FF6BDB00E41BB4 /* AFDetailViewController.m */,
 				5ECF306815FF6BDB00E41BB4 /* UICollectionViewExample.xcdatamodeld */,
+				5E2E334315FF7A7A00C731E5 /* AFCollectionViewCell.h */,
+				5E2E334415FF7A7A00C731E5 /* AFCollectionViewCell.m */,
 				5ECF305A15FF6BDB00E41BB4 /* Supporting Files */,
 			);
 			path = UICollectionViewExample;
@@ -232,6 +237,7 @@
 				5ECF306A15FF6BDB00E41BB4 /* UICollectionViewExample.xcdatamodeld in Sources */,
 				5ECF306D15FF6BDB00E41BB4 /* AFMasterViewController.m in Sources */,
 				5ECF307015FF6BDB00E41BB4 /* AFDetailViewController.m in Sources */,
+				5E2E334515FF7A7A00C731E5 /* AFCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
