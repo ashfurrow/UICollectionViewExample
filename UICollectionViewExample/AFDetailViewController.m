@@ -30,8 +30,10 @@
 {
     // Update the user interface for the detail item.
 
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
+    if (self.detailItem)
+    {
+        self.detailImageView.image = [UIImage imageWithData:[self.detailItem valueForKey:@"photoImageData"]];
+        self.title = [self.detailItem valueForKey:@"photoName"];
     }
 }
 
