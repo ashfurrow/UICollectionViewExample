@@ -143,10 +143,10 @@ static NSString *CellIdentifier = @"AFCollectionViewCell";
     
     switch(type) {
         case NSFetchedResultsChangeInsert:
-            change[@(type)] = @[@(sectionIndex)];
+            change[@(type)] = @(sectionIndex);
             break;
         case NSFetchedResultsChangeDelete:
-            change[@(type)] = @[@(sectionIndex)];
+            change[@(type)] = @(sectionIndex);
             break;
     }
     
